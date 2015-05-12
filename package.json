@@ -1,0 +1,27 @@
+{
+  "name": "react-tabula-rasa",
+  "version": "1.0.0",
+  "description": "Starting point for React based projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t babelify src/index.js -o index.js",
+    "watch": "watchify -t babelify src/index.js -o index.js --debug -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusbutuc/react-tabula-rasa.git"
+  },
+  "author": "Marius Butuc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariusbutuc/react-tabula-rasa/issues"
+  },
+  "homepage": "https://github.com/mariusbutuc/react-tabula-rasa#readme",
+  "devDependencies": {
+    "babelify": "^6.1.0",
+    "browserify": "^10.1.3",
+    "react": "^0.13.3",
+    "watchify": "^3.2.1"
+  }
+}
